@@ -10,5 +10,6 @@ public class Main {
                 .age(30)
                 .gender("male")
                 .build();
+
     }
 }

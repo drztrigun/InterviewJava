@@ -12,7 +12,7 @@ public class Drawer {
             shape.draw();
         }
 
-        Arrays.stream(shapes).forEach(t -> t.draw());
-        Arrays.stream(shapes).forEach(Shape::draw);
+//        Arrays.stream(shapes).forEach(t -> t.draw());
+//        Arrays.stream(shapes).forEach(Shape::draw);
     }
 }
