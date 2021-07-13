@@ -1,11 +1,6 @@
 package geek.homework2;
 
-abstract class Car {
-    public Engine engine;
-    private String color;
-    private String name;
-
-    /* Для начала, создать не достающий класс Engine, вынети в него значения,
+ /* Для начала, создать не достающий класс Engine, вынети в него значения,
     затем вынести  методы start() и open() в интерфейс(т.к. все ТС могут стартовать)
     и объеденить новый интерфейс с двумя другими (Moveable, Stopable) в один,
     возможно метод open() стоит вынести в отдельный интерфейс,
@@ -15,6 +10,12 @@ abstract class Car {
     так же унаследовать интрефейсы через implements, а не через extends.
     Так же разнести по пакетам классы авто в один пакет и сам класс car(), engine() и интрерфейс/ы к нему в другой.
     */
+
+abstract class Car {
+
+    public Engine engine;
+    private String color;
+    private String name;
 
     protected void start() {
         System.out.println("Car starting");

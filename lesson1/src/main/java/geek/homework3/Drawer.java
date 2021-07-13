@@ -4,7 +4,6 @@ import java.util.Arrays;
 
 public class Drawer {
 
-
     public static void main(String[] args) {
         Shape[] shapes = new Shape[] {new Triangle(), new Circle(), new Square()};
 
