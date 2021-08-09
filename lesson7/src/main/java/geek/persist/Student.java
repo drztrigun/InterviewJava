@@ -3,7 +3,7 @@ package geek.persist;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "students")
+@Table(name = "studentsles7")
 @NamedQueries({
         @NamedQuery(name = "studentByName", query = "from Student s where s.studentname=:studentname"),
         @NamedQuery(name = "allStudent", query = "from Student")
@@ -23,8 +23,7 @@ public class Student {
     public Student() {
     }
 
-    public Student(Long id, String username, int age) {
-        this.id = id;
+    public Student(String username, int age) {
         this.username = username;
         this.age = age;
     }
